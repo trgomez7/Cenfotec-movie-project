@@ -26,7 +26,7 @@ const Home = () => {
             console.log(movie)
             return (
               <Link /*'movies/tt1201607'*/
-                to={`${movie.id}`} /* Router.js dinamik path yapısıyla aynı olacak şekilde imdbID ile routing işlemini yapınız */
+                to={`${movie.id}`} 
                 className="text-link"
                 key={movie.id}
               >
