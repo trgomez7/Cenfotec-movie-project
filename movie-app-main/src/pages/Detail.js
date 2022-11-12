@@ -21,7 +21,7 @@ const Detail = () => {
   let { id } = useParams();
   const { showDetail, selectedMovie } = useContext(MovieContext);
   useEffect(() => {
-    showDetail(id); // useParams ile alınan film id'sini kullanınız.
+    showDetail(id); 
   }, []);
 
   console.log(showDetail)
